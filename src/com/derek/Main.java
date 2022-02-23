@@ -10,6 +10,7 @@ public class Main {
         try {
             System.out.println("unexceptional code");
             System.out.println("exceptional code is " + 100/0);
+            System.out.println("more unexceptional code");
         } catch (ArithmeticException e) {
             System.out.println("arithmetic exception");
         } catch (Exception e) {
